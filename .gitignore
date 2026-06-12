@@ -1,0 +1,22 @@
+# Environments
+venv/
+env/
+.env
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Data folders (CRITICAL: Do not commit your datasets)
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Jupyter Notebooks checkpoints (if you use them later)
+.ipynb_checkpoints/
+
+# IDE files
+.vscode/
+.idea/
